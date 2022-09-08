@@ -4,13 +4,12 @@
 
 /**
  *
- *  * main - Entry point
+ *  main - Entry point
  *
- *   *
- *
- *    * Return: Always 0 (Success)
- *
- *     */
+ * Description: 'the program's description'  
+ * 
+ *  Return: Always 0 (Success)
+ */
 
 int main(void)
 
