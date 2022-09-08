@@ -1,10 +1,10 @@
 #include <stdio.h>
-#include <stdio.h>
+#include <unistd.h>
 
 /**
  * main - print quote
  *
- * Description: prints Dor's quote
+ * Description: prints Dora's quote
  *
  * Return: always 1 (success)
  */
