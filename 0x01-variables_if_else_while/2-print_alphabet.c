@@ -1,37 +1,22 @@
-#include<stdio.h>
+#include <stdio.h>
+#include "main.h"
 
 /**
  * main - Entry point
  *
- * Description: print all possible different
- *              combinations of two digits.
+ * Description: print alphabet in lower
  *
- * Return: Always 0 (success)
+ * Return: always 0 (success)
  */
-
 int main(void)
 {
-	int digit1 = 0, digit2;
-
-	while (digit1 <= 9)
-
-
+	for (int x = 'a'; x <= 'z'; x++)
 	{
-		digit2 = 0;
-		while (digit2 <= 9)
-		{
-			if (digit1 != digit2 && digit1 < digit2)
-			{
-				putchar(digit1 + 48);
-				putchar(digit2 + 48);
+		int lower_x = tolower(x);
 
-			}
-			++digit2;
-		}
-		++digit1;
+		putchar(lower_x);
 	}
 	putchar('\n');
 
 	return (0);
-
 }
