@@ -1,21 +1,21 @@
 #include <stdio.h>
 
 /**
- * main - Entry point
+ * main - print integers of base 10 from 0
  *
- * Description: print all the alphabet letters
- *
- * Return: Always 0 (success)
+ * Return: 0
  */
+
 int main(void)
 {
-	char ch = 'a'
+	int num;
 
-	while ('a' >= ch <= 'z')
+	num = 0;
 
+	while (num <= 10)
 	{
-		putchar(ch);
-		++ch;
+		putchar("%d", num);
+		num++;
 	}
 	putchar('\n');
 
