@@ -1,34 +1,23 @@
-#include <stdio.h>
+ #include <stdio.h>
 
 /**
- * main - Entry
+ * main - print digits of base 10 from 0
  *
- * Description: print alphabet in lowercase then in uppercase
- *
- * Return: Always 0 (success)
+ * Return: 0
  */
 
 int main(void)
 {
-	char ch = 'a';
-	char CH = 'A';
+	int i;
 
-	/*prints a-z*/
-	while (ch <= 'z')
+	i = 0;
 
+	while (i < 10)
 	{
-		putchar(ch);
-		++ch;
+		putchar(i);
+		i++;
 	}
-
-	/*prints A - Z*/
-	while (CH <= 'A')
-
-	{
-		putchar(CH);
-		++CH;
-	}
-	putchar ('\n');
+	putchar('\n');
 
 	return (0);
 }
