@@ -13,7 +13,7 @@ int main(void)
 
 	while (x <= 'z')
 	{
-		if (x == 'q'&&x == 'e')
+		if ((x == 'q') || (x == 'e'))
 		{
 			continue;
 		}
