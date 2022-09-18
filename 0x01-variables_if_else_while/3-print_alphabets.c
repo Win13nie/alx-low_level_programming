@@ -1,52 +1,31 @@
 #include <stdio.h>
 
 /**
- * main - Entry point
+ * main - print the alphabet in lower and uppercase
  *
- * Description: print all possible different
- *              combinations of two digits.
- *
- * Return: Always 0 (success)
- *
+ * Return: 0
  */
 
 int main(void)
 {
-	int digit1 = 0;
-	int digit2, digit3;
+	int x;
+	int X;
 
-	while (digit1 <= 9)
+	x = 'a';
+	X = 'A';
+
+	while (x <= 'z')
 	{
-		digit2 = 0;
-		while (digit2 <= 9)
-		{
-			digit3 = 0;
-			while (digit3 <= 9)
-			{
-				if (digit1 != digit2 &
-				    digit1 < digit2 &&
-				    digit2 != digit3 &&
-				    digit2 < digit3)
-				{
-					putchar(digit1 + 48);
-					putchar(digit2 + 48);
-					putchar(digit3 + 48);
-					if (digit1 + digit2 + digit3 != 24)
-					{
-						putchar(',');
-						putchar(' ');
-					}
-				}
-				++digit3;
-			}
-			++digit2;
-		}
-		++digit1;
+		putchar(x);
+		x++;
+	}
+
+	while (X <= 'Z')
+	{
+		putchar(X);
+		X++;
 	}
 	putchar('\n');
 
 	return (0);
 }
-
-
-
