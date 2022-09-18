@@ -15,6 +15,7 @@ int main(void)
 	{
 		if ((x == 'q') || (x == 'e'))
 		{
+			x++;
 			continue;
 		}
 
