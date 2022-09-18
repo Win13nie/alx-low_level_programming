@@ -1,20 +1,21 @@
 #include <stdio.h>
-#include "main.h"
 
 /**
- * main - Entry point
+ * main - print alphabet from a to z in lowercase
  *
- * Description: print alphabet in lower
- *
- * Return: always 0 (success)
+ * Return: 0
  */
+
 int main(void)
 {
-	for (int x = 'a'; x <= 'z'; x++)
-	{
-		int lower_x = tolower(x);
+	int x;
 
-		putchar(lower_x);
+	x = 'a';
+
+	while (x <= 'z')
+	{
+		putchar(x);
+		x++;
 	}
 	putchar('\n');
 
