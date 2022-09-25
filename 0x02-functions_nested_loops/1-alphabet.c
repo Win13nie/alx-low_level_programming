@@ -3,7 +3,7 @@
 /**
  * main - prints alphabet in lowercase followed by new line
  *
- * Return: 0
+ *
  */
 
 int main(void)
@@ -12,12 +12,10 @@ int main(void)
 
 	i = 'a';
 
-	while (i >= 'a' && i <= 'z')
+	for (i = 'a'; i <= 'z'; i++)
 	{
 		putchar(i);
-		i++;
+		
 	}
 	putchar('\n');
-
-	return (0);
 }
