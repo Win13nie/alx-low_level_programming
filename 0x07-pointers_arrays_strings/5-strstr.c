@@ -3,7 +3,7 @@
 /**
  * _strstr - function that locates a substring
  * @needle: substring to locate
- * @haystack: string tgat contains needle
+ * @haystack: string that contains needle
  *
  * Return: pointer to the beginning of the located substring, or NULL
  */
