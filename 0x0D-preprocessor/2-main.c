@@ -1,7 +1,15 @@
 #include <stdio.h>
 
-int main(int argc, char *argv[])
+/**
+ * main - this rints the name of the file of the program
+ *        was initially compiled from, followed by a new line.
+ *
+ * Return: Always 0.
+ */
+
+int main(void)
 {
-	printf("program's name is: %s\n", argc(argv[0]));
+	printf("%s\n", __FILE__);
+
 	return (0);
 }
